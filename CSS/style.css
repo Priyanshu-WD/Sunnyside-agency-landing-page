@@ -37,14 +37,13 @@ main {
 
 .header-wrapper {
   width: 100%;
-  height: 50rem;
+  height: 54rem;
   display: flex;
   justify-content: center;
 }
 
 .header {
   width: 100%;
-  max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +62,7 @@ main {
   padding: 2rem;
 }
 .header-title {
-  height: 540px;
+  height: 33.75rem;
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
@@ -104,6 +103,7 @@ main {
   font-family: "Fraunces", sans-serif;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -314,7 +314,6 @@ main {
 
 .cards {
   width: 33%;
-  max-width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -418,6 +417,11 @@ main {
   opacity: 0.75;
 }
 
+.footer-ietm-link:hover {
+  color: var(--White);
+  opacity: 1;
+}
+
 .footerSoical {
   display: flex;
   align-items: center;
@@ -428,6 +432,6 @@ main {
   list-style: none;
 }
 
-.fotterIcon:hover {
-  background-color: var(--White);
+.fotterIcon:hover path {
+  fill: var(--White);
 }
